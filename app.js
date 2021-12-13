@@ -66,7 +66,11 @@ function countTo10() {
 /**
  * Task 8: create a function that takes in a word, and will loop through each letter, logging it in the console
  */
-
+function printLetterOfWord(word) {
+  for (i = 0; i < word.length; i++) {
+    console.log(word[i]);
+  }
+}
 /**
  * Task 9: create a function that will loop from 0 to 100, and log every even number
  */

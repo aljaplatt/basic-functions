@@ -89,5 +89,14 @@ function evenNumberIn100() {
  * [true,  true,  true,  false]
  * The correct answer would be 3.
  */
+let sheepArray = [true, true, true, false];
 
-function countSheep(sheepArray) {}
+function countSheep(sheepArray) {
+  let sheep = 0;
+  for (i = 0; i < sheepArray.length; i++) {
+    if (sheepArray[i] === true) {
+      sheep++;
+    }
+  }
+  return sheep;
+}

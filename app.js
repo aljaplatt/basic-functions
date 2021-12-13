@@ -1,25 +1,48 @@
-/** 
- * before starting: remember to copy the path for index.html into the browser, which means you can try 
- * out your functions in the console.  
- * you do not need to make any changes in index.html this is just to allow you to see your output 
+/**
+ * before starting: remember to copy the path for index.html into the browser, which means you can try
+ * out your functions in the console.
+ * you do not need to make any changes in index.html this is just to allow you to see your output
  * in the console
  */
 
 /**
  * Task 1: create a function that will take in a name and say hello to that person in the console
  */
+function sayName(name) {
+  return `Hello ${name}`;
+}
 
 /**
  * Task 2: create a function that will take in a number, and say I can count to and the number in the console
  */
 
+function iCanCountTo(number) {
+  return `I can count to ${number}`;
+}
 /**
- * Task 3: create a function that takes in a word, and returns that word with " is a word" added to it 
+ * Task 3: create a function that takes in a word, and returns that word with " is a word" added to it
  */
+
+function isAWord(word) {
+  return `${word} is a word`;
+}
 
 /**
  * Task 4: create a function that will take in a number, and if it is higher than 5, say "high number" in the console
  */
+// function isHigherThan5(number) {
+//   if (number > 5) {
+//     console.log("high number");
+//   } else if (number < 5) {
+//     console.log("low number");
+//   } else {
+//     return "even";
+//   }
+// }
+
+function isHigherThan5(number) {
+  return number > 5 ? "high number" : number < 5 ? "low number" : "even";
+}
 
 /**
  * Task 5: create a function that will take in a number, and if it is lower than 5, say "low number" in the console
@@ -30,7 +53,7 @@
  */
 
 /**
- * Task 7: create a function that will loop from 0 to 10 and show each number in the console 
+ * Task 7: create a function that will loop from 0 to 10 and show each number in the console
  */
 
 /**
@@ -47,11 +70,9 @@
  * the number of sheep present in the array (true means present).
  *
  * For example,
- * 
+ *
  * [true,  true,  true,  false]
  * The correct answer would be 3.
  */
 
-function countSheep(sheepArray) {
-
-}
+function countSheep(sheepArray) {}

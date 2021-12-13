@@ -58,7 +58,11 @@ function isOddOrEven(number) {
 /**
  * Task 7: create a function that will loop from 0 to 10 and show each number in the console
  */
-
+function countTo10() {
+  for (i = 0; i <= 10; i++) {
+    console.log(i);
+  }
+}
 /**
  * Task 8: create a function that takes in a word, and will loop through each letter, logging it in the console
  */

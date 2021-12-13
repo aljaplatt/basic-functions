@@ -74,7 +74,11 @@ function printLetterOfWord(word) {
 /**
  * Task 9: create a function that will loop from 0 to 100, and log every even number
  */
-
+function evenNumberIn100() {
+  for (i = 1; i <= 100; i++) {
+    if (i % 2 === 0) console.log(i);
+  }
+}
 /*
  * Task 10: complete the below function for this problem:
  * Consider an array/list of sheep where some sheep may be missing from their place. We need a function that counts

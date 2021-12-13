@@ -51,6 +51,9 @@ function isHigherThan5(number) {
 /**
  * Task 6: create a function that will take in a number, and if it is even, log even in the console, or log odd if not
  */
+function isOddOrEven(number) {
+  return number % 2 === 0 ? "even" : "odd";
+}
 
 /**
  * Task 7: create a function that will loop from 0 to 10 and show each number in the console

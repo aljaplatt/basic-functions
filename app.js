@@ -100,3 +100,16 @@ function countSheep(sheepArray) {
   }
   return sheep;
 }
+
+// function takes in 2 arguments. Multiply and returns result
+
+const multiply = (a, b) => a * b;
+
+let answer = multiply(2, 3);
+console.log(answer); // 6
+
+// make a function called timesTen, use multiply function
+
+const timesTen = (num) => multiply(num, 10);
+
+console.log(timesTen(5));
